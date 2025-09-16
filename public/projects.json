@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "category": "side-projects",
+    "title": "Pixel Art Maker",
+    "description": "A web-based tool for creating pixel art.",
+    "link": "https://github.com/yourname/pixel-art-maker",
+    "image": "/assets/pixel-art.png"
+  },
+  {
+    "id": 2,
+    "category": "games",
+    "title": "Slime Wobble",
+    "description": "A Unity game featuring a bouncing slime character.",
+    "link": "https://yourgamepage.com",
+    "image": "/assets/slime.png"
+  },
+  {
+    "id": 3,
+    "category": "school-projects",
+    "title": "Database Normalization Tool",
+    "description": "A Python tool for converting schemas into BCNF.",
+    "link": "https://github.com/yourname/db-normalizer",
+    "image": "/assets/db-tool.png"
+  }
+]
