@@ -8,7 +8,7 @@ const ProjectsSection = () => {
   }, [])
   return (
     <div>
-      <span>Projects</span>
+      <span className="text-2xl">Projects</span>
       <div className="grid grid-cols-[repeat(auto-fit, minmax(300px, 1fr))] gap-4">
         {projects.map((project) => <ProjectCard key={project.id} project={project} />)}
         {/* {projects.map((project) => <p>{project.id}</p>)} */}
