@@ -21,6 +21,6 @@
     "description": "A Python tool for converting schemas into BCNF.",
     "link": "https://github.com/yourname/db-normalizer",
     "image": "/assets/db-tool.png",
-    "technologies": ["React", "tailwind"]
+    "technologies": ["React", "Tailwind", "C++"]
   }
 ]

@@ -22,8 +22,8 @@ const ProjectCard = ({ project: { id, title, url, date, description, technologie
         <div className="flex p-2 gap-2 align-middle">
           {technologies.map((tech) => {
             return (
-              <div key={tech} className="p-1 rounded text-xs content-center bg-shade-300">
-                <span>{tech}</span><div className="size-fit inline-block">{techIcons[tech]}</div>
+              <div key={tech} className="flex p-1 rounded text-xs align-middle items-center bg-shade-300">
+                <span>{tech}</span><div className="size-fit">{techIcons[tech]}</div>
               </div>
             );
           })}

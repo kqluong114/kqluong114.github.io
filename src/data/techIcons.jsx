@@ -1,5 +1,4 @@
 import { 
-  SiTailwindcss, 
   SiUnity, 
   SiCplusplus, 
   SiHtml5, 
@@ -8,15 +7,17 @@ import {
   SiReact 
 } from "react-icons/si";
 
-// Just an object, no function needed
+import { RiTailwindCssFill } from "react-icons/ri";
+
+// Map tech names to icons with colors close to their official logos
 const techIcons = {
-  react: <SiReact className="text-sky-400" />,
-  cplusplus: <SiCplusplus className="text-blue-600" />,
-  html: <SiHtml5 className="text-orange-500" />,
-  css: <SiCss3 className="text-blue-500" />,
-  javascript: <SiJavascript className="text-yellow-400" />,
-  tailwindcss: <SiTailwindcss className="text-teal-400" />,
-  unity: <SiUnity className="text-black" />,
+  React: <SiReact className="text-[#61DAFB] w-6 h-6" />,          // React blue
+  "C++": <SiCplusplus className="text-[#00599C] w-6 h-6" />,      // C++ blue
+  HTML: <SiHtml5 className="text-[#E34F26] w-6 h-6" />,           // HTML orange
+  CSS: <SiCss3 className="text-[#1572B6] w-6 h-6" />,             // CSS blue
+  JavaScript: <SiJavascript className="text-[#F7DF1E] w-6 h-6" />, // JS yellow
+  Tailwindcss: <RiTailwindCssFill className="text-[#06B6D4] w-6 h-6" />, // Tailwind cyan
+  Unity: <SiUnity className="text-[#000000] w-6 h-6" />,           // Unity black
 };
 
 export default techIcons;
