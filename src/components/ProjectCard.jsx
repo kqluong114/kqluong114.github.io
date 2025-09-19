@@ -7,7 +7,7 @@ const ProjectCard = ({ project: { id, title, url, date, description, technologie
       <div className="flex flex-col bg-(--color-shade-400) rounded">
         <div className="flex gap-2 p-2 bg-shade-200 rounded">
           <div className="w-1/4 p-1">
-            <BsGithub className="h-full m-auto w-full"/>
+            <BsGithub className="h-full m-auto w-full max-w-24"/>
           </div>
           <div className="flex flex-col items-start">
             <span className="text-lg text-left text-ellipsis line-clamp-2">{title}</span>

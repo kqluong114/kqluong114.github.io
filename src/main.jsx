@@ -27,7 +27,6 @@ let router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div className='text-blue-800'>HELLO</div>
     <RouterProvider router={router}/>
   </StrictMode>,
 )

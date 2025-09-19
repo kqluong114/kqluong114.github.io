@@ -1,9 +1,9 @@
 const AboutMeSection = () => {
   return (
-    <section id="about-me" className="bg-(--color-shade-400) p-2 py-6 rounded-md flex flex-col gap-4 scroll-mt-16">
+    <section id="about-me"  className="bg-(--color-shade-400) p-2 py-6 rounded-md flex flex-col gap-4 scroll-mt-16">
       <div className="flex flex-col gap-1">
-        <span className="text-3xl font-bold">About Me</span>
-        <span className="text-xl font-semibold">Software Engineer & Lifelong Learner</span>
+        <h1 className="text-3xl font-semibold">About Me</h1>
+        <h2 className="text-xl font-semibold">Software Engineer & Lifelong Learner</h2>
       </div>
       <div className="flex flex-col leading-relaxed text-left gap-6 p-2 sm:px-8">
         <p>

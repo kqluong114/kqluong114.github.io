@@ -14,7 +14,7 @@
 }
 
 * {
-    @apply scrollbar scrollbar-thumb-[oklch(1_.08_174/.8)];
+    @apply scrollbar scrollbar-thumb-pink-400;
 }
 
 ::-webkit-scrollbar {
@@ -29,30 +29,6 @@
 body {
     @apply bg-(--color-shade-300);
 }
-
-indigo: {
-  100: "#dbdce2",
-  200: "#b7bac6",
-  300: "#9497a9",
-  400: "#70758d",
-  500: "#4c5270",
-  600: "#3d425a",
-  700: "#2e3143",
-  800: "#1e212d",
-  900: "#0f1016"
-},
-
-pink: {
-  100: "#fddcec",
-  200: "#fbbad9",
-  300: "#fa97c6",
-  400: "#f875b3",
-  500: "#f652a0",
-  600: "#c54280",
-  700: "#943160",
-  800: "#622140",
-  900: "#311020"
-},
 
 html, body {
   width: 100%;
