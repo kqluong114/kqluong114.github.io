@@ -1,7 +1,7 @@
 import ContactInputField from "./ContactInputField";
 const ContactSection = () => {
   return (
-    <div>
+    <section id="contact">
       <div>
         <span>Contact Me</span>
       </div>
@@ -49,7 +49,7 @@ const ContactSection = () => {
           <a href="">Khanh1234409@gmail.com</a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

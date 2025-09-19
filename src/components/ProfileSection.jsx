@@ -4,7 +4,7 @@ import headshot from "../assets/headshot.jpg"
 
 const ProfileSection = () => {
   return (
-    <div className="py-10">
+    <section id="profile" className="py-10">
       <div className="overflow-hidden size-auto m-auto">
         <img src={headshot} alt="" />
       </div>
@@ -33,7 +33,7 @@ const ProfileSection = () => {
         </div>
         {/* <span>Software Engineer</span> */}
       </div>
-    </div>
+    </section>
   );
 }
 

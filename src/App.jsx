@@ -4,7 +4,7 @@ import "./index.css";
 
 function App() {
   return (
-    <div className="w-full h-full bg-[oklch(0.3_0.02_274)] text-white">
+    <div className="bg-[oklch(0.3_0.02_274)] text-white">
       <MenuBar />
       <div className="flex-1 overflow-auto">
         <Outlet />

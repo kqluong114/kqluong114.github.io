@@ -1,6 +1,6 @@
 const AboutMeSection = () => {
   return (
-    <div className="bg-(--color-shade-400) p-2 py-6 rounded-md flex flex-col gap-4">
+    <section id="about-me" className="bg-(--color-shade-400) p-2 py-6 rounded-md flex flex-col gap-4 scroll-mt-16">
       <div className="flex flex-col gap-1">
         <span className="text-3xl font-bold">About Me</span>
         <span className="text-xl font-semibold">Software Engineer & Lifelong Learner</span>
@@ -24,7 +24,7 @@ const AboutMeSection = () => {
           to collaborate, learn, and contribute to meaningful projects.
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 

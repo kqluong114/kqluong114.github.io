@@ -7,7 +7,7 @@ const ProjectsSection = () => {
     console.log(projects);
   }, [])
   return (
-    <div>
+    <section id="projects">
       <div className="py-6">
         <span className="text-3xl">Projects</span>
       </div>
@@ -15,7 +15,7 @@ const ProjectsSection = () => {
         {projects.map((project) => <ProjectCard key={project.id} project={project} />)}
         {/* {projects.map((project) => <p>{project.id}</p>)} */}
       </div>
-    </div>
+    </section>
   )
 }
 
