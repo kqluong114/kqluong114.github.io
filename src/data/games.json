@@ -1,23 +1,29 @@
 [
   {
     "id": 1,
-    "title": "Pixel Art Maker",
-    "description": "A web-based tool for creating pixel art.",
-    "link": "https://github.com/yourname/pixel-art-maker",
-    "image": "/assets/pixel-art.png"
+    "title": "Legend of Zelda Clone",
+    "link": "https://github.com/kqluong114/p1-Zelda",
+    "description": "A faithful recreation of the first dungeon in the 1998 Legend of Zelda game on the NES using C# and Unity along with a unique mechanic introduced in the gameplay.",
+    "date": "",
+    "image": "",
+    "technologies": ["Unity", "C#"] 
   },
   {
     "id": 2,
-    "title": "Slime Wobble",
-    "description": "A Unity game featuring a bouncing slime character.",
-    "link": "https://yourgamepage.com",
-    "image": "/assets/slime.png"
+    "title": "Slimey Plotformer",
+    "link": "",
+    "description": "A slime platformer created in Unity combining precision platforming, physics, and puzzling.",
+    "date": "",
+    "image": "",
+    "technologies": ["Unity", "C#"] 
   },
   {
     "id": 3,
-    "title": "Database Normalization Tool",
-    "description": "A Python tool for converting schemas into BCNF.",
-    "link": "https://github.com/yourname/db-normalizer",
-    "image": "/assets/db-tool.png"
+    "title": "Shard Bound Shadows",
+    "link": "",
+    "description": "A puzzle game created with a team of game developers.",
+    "date": "",
+    "image": "",
+    "technologies": ["Unity", "C#"] 
   }
 ]

@@ -1,26 +1,29 @@
 [
   {
     "id": 1,
-    "title": "Pixel Art Maker",
-    "description": "A web-based tool for creating pixel art.",
-    "link": "https://github.com/yourname/pixel-art-maker",
-    "image": "/assets/pixel-art.png",
-    "technologies": ["react", "tailwind"]
+    "title": "Linux File System",
+    "url": "https://github.com/kqluong114/Linux-File-System",
+    "description": "A terminal based, multi-threaded, multi-user C++ linux file system with read, write, update, and delete capabilities.",
+    "date": "",
+    "image": "",
+    "technologies": ["C++"]
   },
   {
     "id": 2,
-    "title": "Slime Wobble",
-    "description": "A Unity game featuring a bouncing slime character.",
-    "link": "https://yourgamepage.com",
-    "image": "/assets/slime.png",
-    "technologies": ["react", "tailwind"]
+    "title": "InstaClone",
+    "url": "https://github.com/kqluong114/Instagram-Clone",
+    "description": "A fullstack implementation of Instagram with clientside rendering, SQLite database, and React as the frontend framework.",
+    "date": "",
+    "image": "",
+    "technologies": ["react", "SQLite"]
   },
   {
     "id": 3,
-    "title": "Database Normalization Tool",
-    "description": "A Python tool for converting schemas into BCNF.",
-    "link": "https://github.com/yourname/db-normalizer",
+    "title": "Memory Manager",
+    "url": "https://github.com/kqluong114/Memory-Manager",
+    "description": "A simple Memory Manager implementation in C++ that simulates virtual memory concepts such as caching, eviction, and disk I/O management.",
+    "date": "",
     "image": "/assets/db-tool.png",
-    "technologies": ["React", "Tailwind", "C++"]
+    "technologies": ["C++"]
   }
 ]
